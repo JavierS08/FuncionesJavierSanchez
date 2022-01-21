@@ -44,3 +44,4 @@ function bisiesto($año){
     //retorna si el año es bisiesto o no
     return (date('L',strtotime("$año-05-04"))? "El año $año es bisiesto" : "El año $año es no bisiesto");
 }
+?>
